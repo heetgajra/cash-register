@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register Manager</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Register <strong>Sathi</strong></h1>
+      <p class="define">
+        Type in the total bill amount and amount paid to get the change required to be returned
+      </p>
+    </header>
+    <div class="bill-structure">
+
+      <label for="bill-amount" class="input-label">Bill Amount</label>
+      <input class="bill-amount input" type="number" />
+      <label for="cash-given" class="input-label">Cash Given</label>
+      <input class="cash-given input" type="number" />
+
+      <button class="button">Check</button>
+      <div><span class="output"></span></div>
+
+      <table class="table">
+        <caption>
+          <h3>Return Change</h3>
+        </caption>
+
+        <tr>
+          <th>No. of Notes</th>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
