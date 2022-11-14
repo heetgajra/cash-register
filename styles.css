@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #d8cd2c;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f1f5f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--primary-color);
+  }
+   .bill-structure{
+    margin: 2rem 3.5rem;
+    text-align: center;
+  }
+  
+  .define {
+    margin: 1rem;
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+  }
+  
+  .input {
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+  }
+  
+  button {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
+  
+  .output {
+    display: block;
+    margin: 1rem;
+    font-size: x-large;
+  }
+  
+  .table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .table caption {
+    margin: 1rem auto;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  th,
+  td {
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+  }
+  
+  .footer-about {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-links li {
+    display: inline;
+  }
+  
+  .links {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
